@@ -1,4 +1,4 @@
 CC=gcc
-CFLAGS=$$(pkg-config --cflags --libs gtk+-3.0)
+CFLAGS=$$(pkg-config --cflags --libs gtk+-3.0) -g
 
-test_window: test_window.c
+yog: yog.c
